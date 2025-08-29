@@ -1,13 +1,7 @@
 -- Theme
-require('vesper').setup({
-    italics = {
-        comments = false, -- Boolean: Italicizes comments
-        keywords = false, -- Boolean: Italicizes keywords
-        functions = false, -- Boolean: Italicizes functions
-        strings = false, -- Boolean: Italicizes strings
-        variables = false, -- Boolean: Italicizes variables
-    },
-    overrides = {}, -- A dictionary of group names, can be a function returning a dictionary or a table.
-    palette_overrides = {}
+require('catppuccin').setup({
+	flavour = "mocha",
+	transparent_background = true,
 })
-vim.cmd("colorscheme vesper")
+
+vim.cmd("colorscheme catppuccin")

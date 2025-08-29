@@ -5,6 +5,7 @@ vim.pack.add({
   { src = "https://github.com/nvim-mini/mini.pick" },
   { src = "https://github.com/stevearc/oil.nvim" },
   { src = "https://github.com/windwp/nvim-autopairs" },
+  { src = "https://github.com/catppuccin/nvim" },
   { src = "https://github.com/datsfilipe/vesper.nvim" }
 })
 

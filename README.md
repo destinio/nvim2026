@@ -5,7 +5,7 @@ A modern, minimal Neovim configuration built with native package management and 
 ## Features
 
 - 🚀 **Native Plugin Management** - Uses Neovim's built-in `vim.pack.add()` instead of external plugin managers
-- 🎨 **Modern UI** - Clean interface with rounded borders and the Vesper colorscheme
+- 🎨 **Modern UI** - Clean interface with rounded borders and the Catppuccin colorscheme
 - 🧠 **Smart LSP** - Configured language servers for Lua and TypeScript with extensible setup
 - ⚡ **Fast Completion** - Powered by blink.cmp for lightning-fast autocompletion
 - 📁 **File Management** - Oil.nvim for intuitive file browsing and editing
@@ -84,7 +84,8 @@ Additional language servers are available in the `lsp/` directory and can be ena
 | [mini.pick](https://github.com/nvim-mini/mini.pick) | Fuzzy finder for files and text |
 | [oil.nvim](https://github.com/stevearc/oil.nvim) | File manager that treats directories like buffers |
 | [nvim-autopairs](https://github.com/windwp/nvim-autopairs) | Automatic bracket and quote pairing |
-| [vesper.nvim](https://github.com/datsfilipe/vesper.nvim) | Modern colorscheme |
+| [catppuccin](https://github.com/catppuccin/nvim) | Modern, soothing pastel colorscheme |
+| [vesper.nvim](https://github.com/datsfilipe/vesper.nvim) | Alternative modern colorscheme |
 | [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) | Collection of useful snippets |
 
 ## Customization
